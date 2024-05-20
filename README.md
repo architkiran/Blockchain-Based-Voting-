@@ -8,7 +8,7 @@ The Etereum account can be choosen from the Ganache framework as it simulates a 
 -Remix IDE (Google)
 
 <h1>Steps to start with the project:</h1>
-1. Create a folder with any name of choice and open that in VS code.
+1. Create a folder with any name of choice and open that in VS code.<br>
 2. Once youre in the directory add these files: app.py, create a folder and name it "templates" and under that add: index.html, thank_you.html, block_details.html.
 3. Now open terminal and move into your project directory and type in the following commands to download truffle and interact with the gancache framework: 
        - npm -v (to check if npm is installed)
