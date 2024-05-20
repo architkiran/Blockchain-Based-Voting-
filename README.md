@@ -3,9 +3,9 @@ This project aims to create a secure voting system which stores each vote as a b
 The Etereum account can be choosen from the Ganache framework as it simulates a Ethereum Wallet.
 
 <h1>Required framewoek:</h1>
--Download node.js
--Download Ganache (Truffle will be done in terminal in your project directorty)
--Remix IDE (Google)
+-Download node.js<br>
+-Download Ganache (Truffle will be done in terminal in your project directorty)<br>
+-Remix IDE (Google)<br>
 
 <h1>Steps to start with the project:</h1>
 1. Create a folder with any name of choice and open that in VS code.<br>
