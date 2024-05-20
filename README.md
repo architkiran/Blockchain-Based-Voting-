@@ -3,7 +3,7 @@ This project aims to create a secure voting system which stores each vote as a b
 The Votes block details can be viewed in the Ganache framework.
 The Etereum account can be choosen from the Ganache framework as it simulates a Ethereum Wallet.
 
-<h1>Required framewoek:</h1>
+<h1>Required framework:</h1>
 - Download node.js<br>
 - Download Ganache (Truffle will be done in terminal in your project directorty)<br>
 - Remix IDE (Google)<br>
