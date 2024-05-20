@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CR Candidate List</h1>
+        <form action="/" method="post">
+            <label for="candidate">Select a Candidate:</label>
+            <select name="candidate" id="candidate">
+                {% for candidate in candidates %}
+                    <option value="{{ candidate }}">{{ candidate }}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <label for="voter_id">Enter Your Voter ID:</label>
+            <input type="text" id="voter_id" name="voter_id">
+            <br>
+            <button type="submit">Vote</button>
+        </form>
+    </div>
+</body>
+</html>

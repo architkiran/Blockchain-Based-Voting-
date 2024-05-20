@@ -1,0 +1,17 @@
+<!-- thank_you.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Voting!</h1>
+        <p>Your vote for <strong>{{ selected_candidate }}</strong> has been recorded.</p>
+        <a href="{{ url_for('block_details', voter_id=voter_id) }}">View Complete Block Details</a>
+    </div>
+</body>
+</html>

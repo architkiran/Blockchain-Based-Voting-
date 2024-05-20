@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Block Details</h1>
+        <div class="block-details">
+            <div class="detail">
+                <strong>Block Number:</strong> {{ block.number }}
+            </div>
+            <div class="detail">
+                <strong>Block Hash:</strong> {{ block.hash }}
+            </div>
+            <div class="detail">
+                <strong>Timestamp:</strong> {{ block.timestamp }}
+            </div>
+            <div class="detail">
+                <strong>Parent Hash:</strong> {{ block.parentHash }}
+            </div>
+            <!-- Add more block details as needed -->
+        </div>
+    </div>
+</body>
+</html>
