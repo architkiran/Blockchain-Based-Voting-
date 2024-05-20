@@ -1,11 +1,13 @@
 <h1> BlockChain Based Voting System </h1>
-This project aims to create a secure voting system which stores each vote as a block with a hash code generated and each vote creates a new transcation. The Votes block details can be viewed in the Ganache framework.
+This project aims to create a secure voting system which stores each vote as a block with a hash code generated and each vote creates a new transcation. 
+The Votes block details can be viewed in the Ganache framework.
 The Etereum account can be choosen from the Ganache framework as it simulates a Ethereum Wallet.
 
 <h1>Required framewoek:</h1>
--Download node.js<br>
--Download Ganache (Truffle will be done in terminal in your project directorty)<br>
--Remix IDE (Google)<br>
+- Download node.js<br>
+- Download Ganache (Truffle will be done in terminal in your project directorty)<br>
+- Remix IDE (Google)<br>
+- Download sqlite3 <br> 
 
 <h1>Steps to start with the project:</h1>
 1. Create a folder with any name of choice and open that in VS code.<br>
@@ -24,3 +26,5 @@ The Etereum account can be choosen from the Ganache framework as it simulates a 
         - truffle compile<br>
         - truffle migrate<br>
 11. migrate will interact with the contract address and the account and Transaction will be created.<br>
+12. To view the database, after the installation of sqlite3 add the files to C Drive/ProgramFiles and copy the file path. Open Control pannel-Environment Variables-System Variables-path-edit and add the file path.
+13. Open new terminal add type the command: sqlite3 -v (to see the version), then type: sqlite3 yourname.db that should go to the sqlite3 console then to open a database: .open yourname.db, to view the table: .tables, to show the tables content: SELECT * FROM TABLE;
